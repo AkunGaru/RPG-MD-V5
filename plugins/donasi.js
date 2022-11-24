@@ -12,15 +12,14 @@ let handler = async (m, { conn, usedPrefix }) => {
   let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`
   conn.sendButton(m.chat, `
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Gopay  [088279268363]
-┃✾ Dana  [088279268363]
-┃✾ Saweria  [https://saweria.co/raraharsita2]
+┃✾ Gopay  [chat owner]
+┃✾ Dana  [chat owner]
+┃✾ Saweria  [chat owner]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6288279268363
-┃ _Hasil donasi akan digunakan buat sewa_
-┃ _atau beli *RDP/VPS* agar bot bisa jalan_
-┃ _24jam tanpa kendala_
+┃ 
+┃  *Jangan Spam Bot !!*
+┃ 
 ┗━━━━ꕥ
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
